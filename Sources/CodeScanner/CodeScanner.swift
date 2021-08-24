@@ -172,7 +172,7 @@ public struct CodeScannerView: UIViewControllerRepresentable {
         private let showViewfinder: Bool
 
         private lazy var viewFinder: UIImageView? = {
-            guard let image = UIImage(named: "viewfinder", in: .module, with: nil) else {
+            guard let image = UIImage(named: "viewfinder", in: .main, with: nil) else {
                 return nil
             }
 
